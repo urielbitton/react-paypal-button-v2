@@ -1,10 +1,10 @@
-# :large_blue_diamond: react-paypal-button-v2
+# :large_blue_diamond: react-paypal-button-v3
 
 <img src="paypal-smart-buttons.png" width="200px" />
 
-> An easy and simple to use React button component to implement PayPal&#39;s Checkout with Smart Payment Buttons V2 (Version 2).
+> An easy and simple to use React button component to implement PayPal&#39;s Checkout with Smart Payment Buttons v3 (Version 2).
 
-> Check out the [docs](https://luehangs.site/lue_hang/projects/react-paypal-button-v2) for a complete documentation.
+> Check out the [docs](https://luehangs.site/lue_hang/projects/react-paypal-button-v3) for a complete documentation.
 
 :information_source: This PayPal Checkout integration uses the PayPal JavaScript SDK.  Starting at the beginning of February 2019, all new users must use PayPal's version 2 integration as version 1 is now depreciated.
 
@@ -59,13 +59,13 @@ Once you have your account set up, you will have 2 different sets of credentials
 Type in the following to the command line to install the dependency. 
 
 ```sh
-$ npm install react-paypal-button-v2 --save
+$ npm install react-paypal-button-v3 --save
 ```
 
 or
 
 ```sh
-$ yarn add react-paypal-button-v2
+$ yarn add react-paypal-button-v3
 ```
 
 <br/>
@@ -81,10 +81,10 @@ $ yarn add react-paypal-button-v2
 
 Add an ``import`` to the top of the file.  **At minimal**, declare the ``PayPalButton`` component in the ``render()`` method providing a string for the `amount` prop and a function to the `onSuccess` prop.
 
-> If you like [`react-paypal-button-v2`](https://github.com/Luehang/react-paypal-button-v2), please be sure to give it a star at [GitHub](https://github.com/Luehang/react-paypal-button-v2). Thanks.
+> If you like [`react-paypal-button-v3`](https://github.com/Luehang/react-paypal-button-v3), please be sure to give it a star at [GitHub](https://github.com/Luehang/react-paypal-button-v3). Thanks.
 
 ```javascript
-import { PayPalButton } from "react-paypal-button-v2";
+import { PayPalButton } from "react-paypal-button-v3";
 
 export default class Example Component {
   render() {
@@ -126,10 +126,10 @@ To create subscriptions, go to the [Subscriptions Example Section](#subscription
 
 **At minimal**, declare the `options` prop and include your business **production Client ID** in the `clientId` fieldname value.
 
-> If you like [`react-paypal-button-v2`](https://github.com/Luehang/react-paypal-button-v2), please be sure to give it a star at [GitHub](https://github.com/Luehang/react-paypal-button-v2). Thanks.
+> If you like [`react-paypal-button-v3`](https://github.com/Luehang/react-paypal-button-v3), please be sure to give it a star at [GitHub](https://github.com/Luehang/react-paypal-button-v3). Thanks.
 
 ```javascript
-import { PayPalButton } from "react-paypal-button-v2";
+import { PayPalButton } from "react-paypal-button-v3";
 
 export default class Example Component {
   render() {
@@ -242,7 +242,7 @@ Option | Description | Type | Default
 ### Usage Example 1
 
 ```javascript
-import { PayPalButton } from "react-paypal-button-v2";
+import { PayPalButton } from "react-paypal-button-v3";
 
 export default class Example Component {
   render() {
@@ -304,7 +304,7 @@ To see a detail and complete list of available parameters and values, go to [Pay
 <br/>
 
 ```javascript
-import { PayPalButton } from "react-paypal-button-v2";
+import { PayPalButton } from "react-paypal-button-v3";
 
 export default class Example Component {
   render() {
@@ -338,7 +338,7 @@ To create subscriptions you must first [create a product](https://developer.payp
 <br/>
 
 ```javascript
-import { PayPalButton } from "react-paypal-button-v2";
+import { PayPalButton } from "react-paypal-button-v3";
 
 export default class Example Component {
   render() {
@@ -401,7 +401,7 @@ To see a detail and complete list of available parameters and values, go to [Pay
 <br/>
 
 ```javascript
-import { PayPalButton } from "react-paypal-button-v2";
+import { PayPalButton } from "react-paypal-button-v3";
 
 export default class Example Component {
   render() {
@@ -445,10 +445,10 @@ Perform steps 1-2 to run locally:
 
 ### :small_blue_diamond: 1. Clone the Repo
 
-**Clone** `react-paypal-button-v2` locally. In a terminal, run:
+**Clone** `react-paypal-button-v3` locally. In a terminal, run:
 
 ```sh
-$ git clone https://github.com/Luehang/react-paypal-button-v2.git react-paypal-button-v2
+$ git clone https://github.com/Luehang/react-paypal-button-v3.git react-paypal-button-v3
 ```
 
 <br/>
@@ -456,7 +456,7 @@ $ git clone https://github.com/Luehang/react-paypal-button-v2.git react-paypal-b
 ### :small_blue_diamond: 2. Install and Run
 
 ```sh
-$ cd react-paypal-button-v2/
+$ cd react-paypal-button-v3/
 $ npm install
 $ npm run start
 ```
@@ -471,13 +471,13 @@ $ npm run start
 
 ## :large_blue_diamond: Contribute
 
-[Pull requests](https://github.com/Luehang/react-paypal-button-v2/pulls) are welcomed.
+[Pull requests](https://github.com/Luehang/react-paypal-button-v3/pulls) are welcomed.
 
 <br/>
 
 ### :small_blue_diamond: Beginners
 
-Not sure where to start, or a beginner? Take a look at the [issues page](https://github.com/Luehang/react-paypal-button-v2/issues).
+Not sure where to start, or a beginner? Take a look at the [issues page](https://github.com/Luehang/react-paypal-button-v3/issues).
 
 <br/>
 <br/>
